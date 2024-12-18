@@ -13,5 +13,5 @@ public interface ICalculatorWS {
     @WebMethod
     public double mul(double term1, double term2);
     @WebMethod
-    public double div(double term1, double term2);
+    public double div(double term1, double term2) throws DividedByZeroException;
 }
