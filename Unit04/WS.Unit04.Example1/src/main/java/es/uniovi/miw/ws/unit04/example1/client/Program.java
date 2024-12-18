@@ -8,13 +8,13 @@ public class Program {
     public static void main(String[] args) {
         CalculatorWSService service = new CalculatorWSService();
         CalculatorWS calculator = service.getCalculatorWSPort();
-        System.out.println(calculator.add(10, 5));
+        System.out.println(calculator.add(25, 5));
         try {
-            System.out.println(calculator.div(10, 5));
+            System.out.println(calculator.div(25, 5));
         } catch (DividedByZeroException_Exception e) {
             throw new RuntimeException(e);
         }
-        System.out.println(calculator.mul(10, 5));
-        System.out.println(calculator.sub(10, 5));
+        System.out.println(calculator.mul(25, 5));
+        System.out.println(calculator.sub(25, 5));
     }
 }
