@@ -1,0 +1,3 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+    <endpoint name="WebServiceImpl" url-pattern="/soapws/calculator" implementation="es.uniovi.miw.ws.unit03.example1.webservices.CalculatorWS"/>
+</endpoints>
