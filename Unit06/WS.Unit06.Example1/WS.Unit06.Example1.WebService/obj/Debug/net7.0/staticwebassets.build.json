@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7J3KLkKTSozjpskoU/2VP0DXF6vJnMQoeethaOcz1Ms=",
+  "Source": "WS.Unit06.Example1.WebService",
+  "BasePath": "_content/WS.Unit06.Example1.WebService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
